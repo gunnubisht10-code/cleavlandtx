@@ -6,6 +6,7 @@ import FAQAccordion from '../components/FAQAccordion';
 import ContactForm from '../components/ContactForm';
 import { BUSINESS_INFO, IMAGE_URLS } from '../constants';
 import { services } from '../data/services';
+import { locations } from '../data/locations';
 import type { FAQItem } from '../types';
 import { CheckCircle, Star, Phone, Award, ClipboardList, CalendarDays, Truck, CheckSquare, Sparkles, Users, ShieldCheck, DollarSign } from 'lucide-react';
 
@@ -78,8 +79,41 @@ const HomePage: React.FC = () => {
             "opens": "00:00",
             "closes": "23:59"
         },
-        "sameAs": [],
-        "description": `Your #1 source for porta potty rentals in Cleveland, TX. We provide clean, affordable portable toilets for construction sites, events, and more, with same-day delivery available. Call ${BUSINESS_INFO.phone} today!`
+        "sameAs": [
+            "https://www.facebook.com/Arthurrentalworks",
+            "https://www.instagram.com/arthurrentalworks/",
+            "https://www.linkedin.com/company/arthur-rental-works",
+            "https://www.showmelocal.com/39244921-arthur-rental-works-cleveland",
+            "https://ezlocal.com/tx/cleveland/portable-toilet-supplier/0919319573",
+            "https://www.merchantcircle.com/arthur-rental-works--cleveland-tx",
+            "https://www.yelp.com/biz/arthur-rental-works-cleveland"
+        ],
+        "description": `Your #1 source for porta potty rentals in Cleveland, TX. We provide clean, affordable portable toilets for construction sites, events, and more, with same-day delivery available. Call ${BUSINESS_INFO.phone} today!`,
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Porta Potty Rental Services",
+            "itemListElement": services.map(service => ({
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": service.title,
+                    "url": `https://www.${BUSINESS_INFO.domain}/services/${service.slug}`,
+                    "description": service.shortDescription
+                }
+            }))
+        },
+        "areaServed": [
+            {
+                "@type": "City",
+                "name": "Cleveland",
+                "url": `https://www.${BUSINESS_INFO.domain}/`
+            },
+            ...locations.map(location => ({
+                "@type": "City",
+                "name": location.name,
+                "url": `https://www.${BUSINESS_INFO.domain}/service-areas/${location.slug}`
+            }))
+        ]
     };
 
     const faqSchema = {
