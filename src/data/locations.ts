@@ -1,4 +1,3 @@
-
 import type { Location } from '../types';
 
 export const locations: Location[] = [
@@ -212,4 +211,144 @@ export const locations: Location[] = [
       servicesDescription: 'We offer a variety of portable toilets to meet the needs of the Cut and Shoot community. Whether it\'s for a construction job, a family reunion, or a local event, we have the right sanitation solution for you.'
     }
   },
+  {
+    slug: 'willis',
+    name: 'Willis',
+    state: 'TX',
+    zipCodes: ['77318', '77378'],
+    neighborhoods: ['Lake Conroe Forest', 'Point Aquarius', 'Seven Coves', 'The Woodlands Hills'],
+    landmarks: ['Lake Conroe', 'Sam Houston National Forest'],
+    mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54949.03099956403!2d-95.53037303036814!3d30.42277871317544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8647308709452371%3A0x642458e826b5a374!2sWillis%2C%20TX!5e0!3m2!1sen!2sus!4v1700000000001!5m2!1sen!2sus',
+    content: {
+      intro: 'For residents and businesses in Willis, TX, Arthur Rental Works is the top choice for porta potty rentals. We provide comprehensive sanitation solutions for the growing communities around Lake Conroe and the new developments in The Woodlands Hills, ensuring every event and job site is equipped with clean, reliable facilities.',
+      whyChooseUs: 'Our proximity to Willis allows for incredibly fast and efficient service. We understand the logistics of serving lakeside communities like Point Aquarius and rural properties alike. Choose us for punctual delivery, pristine units, and friendly, professional service every time.',
+      servicesDescription: 'We cater to all sanitation needs in Willis, offering durable construction porta potties, ADA-compliant units for public events, and deluxe portable restrooms for parties and gatherings. We are the trusted partner for events and projects of any scale in the Willis area.'
+    }
+  },
+  {
+    slug: 'montgomery',
+    name: 'Montgomery',
+    state: 'TX',
+    zipCodes: ['77356', '77316'],
+    neighborhoods: ['Woodforest', 'Bentwater', 'Walden on Lake Conroe', 'Historic Downtown'],
+    landmarks: ['Fernland Historical Park', 'Historic Downtown Montgomery', 'Lake Conroe'],
+    mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54966.19503417382!2d-95.73809072832863!3d30.389650020476485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86471e4663360485%3A0x59367c29e6ef84d1!2sMontgomery%2C%20TX!5e0!3m2!1sen!2sus!4v1700000000002!5m2!1sen!2sus',
+    content: {
+      intro: 'Arthur Rental Works proudly serves historic Montgomery, TX, the birthplace of the Texas flag. We provide high-quality porta potty rentals for events in the historic downtown, construction in the Woodforest community, and private functions throughout the area. We blend modern service with old-fashioned reliability.',
+      whyChooseUs: 'Our team respects the history and community of Montgomery. We provide discreet and professional service, ensuring our clean, modern units don\'t detract from the charm of your event. For contractors and event planners in Montgomery, we are the most dependable choice.',
+      servicesDescription: 'From single-unit rentals for home renovations to a fleet of restrooms for the Montgomery Wine & Music Fest, we have the inventory to meet your needs. We offer standard, deluxe, and luxury restroom trailers to perfectly match the requirements of any Montgomery event or project.'
+    }
+  },
+  {
+    slug: 'huntsville',
+    name: 'Huntsville',
+    state: 'TX',
+    zipCodes: ['77320', '77340', '77342'],
+    neighborhoods: ['Elkins Lake', 'Sam Houston State University area', 'Downtown Huntsville'],
+    landmarks: ['Sam Houston Statue', 'Texas Prison Museum', 'Huntsville State Park'],
+    mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54790.3541539223!2d-95.5975494297354!3d30.72291993950117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864708764267e163%3A0x6a6d634b07845574!2sHuntsville%2C%20TX!5e0!3m2!1sen!2sus!4v1700000000003!5m2!1sen!2sus',
+    content: {
+      intro: 'In Huntsville, home of Sam Houston State University and a rich Texas history, Arthur Rental Works is the trusted provider of porta potty rentals. We serve the university, local businesses, and residential customers with our top-tier sanitation solutions, perfect for events at Huntsville State Park or construction projects around the city.',
+      whyChooseUs: 'We are experienced in handling the diverse needs of a university town. From large-scale SHSU events to local festivals, we provide the right number of clean, well-stocked units to handle any crowd. Our reliable service ensures your event sanitation is one less thing to worry about.',
+      servicesDescription: 'Our comprehensive services in Huntsville include standard and ADA-accessible porta potties for public events, long-term rentals for construction sites, and handwashing stations to ensure maximum hygiene for students, residents, and visitors alike.'
+    }
+  },
+  {
+    slug: 'crosby',
+    name: 'Crosby',
+    state: 'TX',
+    zipCodes: ['77532'],
+    neighborhoods: ['Newport', 'Indian Shores', 'Barrett Station'],
+    landmarks: ['Lake Houston', 'Crosby Fair & Rodeo', 'Stonebridge at Newport Golf Course'],
+    mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55301.76161476317!2d-95.1215438259838!3d29.91494639943537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640a0033c46e0fb%3A0xa0854cb04838637!2sCrosby%2C%20TX!5e0!3m2!1sen!2sus!4v1700000000004!5m2!1sen!2sus',
+    content: {
+      intro: 'Arthur Rental Works delivers reliable and affordable porta potty rental services to Crosby, TX. We cater to all local needs, from the annual Crosby Fair & Rodeo and events in the Newport community to industrial and residential construction projects. Count on us for clean units and on-time service.',
+      whyChooseUs: 'We understand the needs of the Crosby community. Our team provides friendly, dependable service and ensures every portable toilet is delivered in immaculate condition. For industrial sites or community gatherings, we are Crosby\'s most trusted sanitation partner.',
+      servicesDescription: 'Our offerings in Crosby include durable construction-grade porta potties, event-specific units, ADA-compliant restrooms, and handwashing stations. We provide flexible rental periods for any project, from a single weekend to many months.'
+    }
+  },
+  {
+    slug: 'baytown',
+    name: 'Baytown',
+    state: 'TX',
+    zipCodes: ['77520', '77521', '77523'],
+    neighborhoods: ['Lakewood', 'Goose Creek', 'Pelly', 'Wooster'],
+    landmarks: ['Baytown Nature Center', 'San Jacinto Monument', 'Royal Purple Raceway'],
+    mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55403.0189025072!2d-95.01150393081829!3d29.750849942472626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x863f822a165b533f%3A0xa1933552026f8633!2sBaytown%2C%20TX!5e0!3m2!1sen!2sus!4v1700000000005!5m2!1sen!2sus',
+    content: {
+      intro: 'Serving the major industrial hub of Baytown, TX, Arthur Rental Works provides heavy-duty portable sanitation solutions. We are equipped to handle the demands of large industrial plants, construction sites, and community events like Grito Fest with our extensive inventory of porta potties and restroom trailers.',
+      whyChooseUs: 'We have a proven track record of serving industrial clients in Baytown. We understand the stringent safety and hygiene requirements and provide reliable, scheduled servicing to keep your site compliant and your workers productive. We are the professional\'s choice for portable toilets.',
+      servicesDescription: 'Our Baytown services focus on durability and reliability. We offer long-term contracts for industrial sites, including standard units, handwashing stations, and holding tanks. We also provide clean, modern restrooms for public events at the Baytown Nature Center and elsewhere.'
+    }
+  },
+  {
+    slug: 'magnolia',
+    name: 'Magnolia',
+    state: 'TX',
+    zipCodes: ['77354', '77355'],
+    neighborhoods: ['High Meadow Ranch', 'Lake Windcrest', 'Magnolia Ridge', 'The Stroll'],
+    landmarks: ['Unity Park', 'Magnolia Stroll', 'Texas Renaissance Festival grounds'],
+    mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55099.6970717013!2d-95.7951556276229!3d30.208696857189196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86472b535d55e097%3A0x6b245a11f267a02!2sMagnolia%2C%20TX!5e0!3m2!1sen!2sus!4v1700000000006!5m2!1sen!2sus',
+    content: {
+      intro: 'Arthur Rental Works is the premier provider of porta potty rentals for Magnolia, TX. From the massive crowds at the Texas Renaissance Festival to elegant weddings in High Meadow Ranch and new construction throughout the area, we provide sanitation solutions tailored to every need.',
+      whyChooseUs: 'We have extensive experience with large-scale event management, making us the ideal partner for the Texas Renaissance Festival and other major Magnolia events. We provide strategic placement, regular servicing, and a massive inventory to handle any crowd size, ensuring a positive guest experience.',
+      servicesDescription: 'We offer a full range of services in Magnolia, including hundreds of standard units for festivals, luxury restroom trailers for upscale events, and durable porta potties for the area\'s rapid residential and commercial growth. We are Magnolia\'s one-stop shop for portable restrooms.'
+    }
+  },
+  {
+    slug: 'tomball',
+    name: 'Tomball',
+    state: 'TX',
+    zipCodes: ['77375', '77377'],
+    neighborhoods: ['The Woodlands Creekside Park', 'Village Creek', 'Lakewood', 'Old Town Tomball'],
+    landmarks: ['Tomball Railroad Depot Plaza', 'Main Street Crossing', 'Burroughs Park'],
+    mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55160.77169123847!2d-95.66763422660004!3d30.098485785834873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640d703192d136b%3A0x191350849204b64!2sTomball%2C%20TX!5e0!3m2!1sen!2sus!4v1700000000007!5m2!1sen!2sus',
+    content: {
+      intro: 'In the vibrant city of Tomball, TX, Arthur Rental Works provides top-quality portable toilet rentals for all occasions. We serve the festivals in Old Town Tomball, the growing neighborhoods, and commercial developments with our trademark reliability and cleanliness.',
+      whyChooseUs: 'Our commitment to the Tomball community is shown through our exceptional customer service and pristine equipment. We are the preferred provider for many local events like the Tomball German Heritage Festival and for contractors working throughout the 249 corridor.',
+      servicesDescription: 'Whatever your need in Tomball, we have the solution. We offer special event porta potties, ADA-compliant units for public access at Burroughs Park, and long-term rental options for construction projects, all delivered on time and in perfect condition.'
+    }
+  },
+  {
+    slug: 'huffman',
+    name: 'Huffman',
+    state: 'TX',
+    zipCodes: ['77336'],
+    neighborhoods: ['The Commons of Lake Houston', 'Fairway Crossing at Lake Houston', 'Lakewood Heights'],
+    landmarks: ['Lake Houston', 'Huffman Hargrave High School', 'May Park'],
+    mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55261.32599059535!2d-95.14389142699475!3d29.96204009386377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640a454483a31c5%3A0x367a542a2253381e!2sHuffman%2C%20TX!5e0!3m2!1sen!2sus!4v1700000000008!5m2!1sen!2sus',
+    content: {
+      intro: 'Arthur Rental Works serves the Huffman, TX community with dependable porta potty rentals for lakeside living and local development. From fishing tournaments on Lake Houston to new home construction in The Commons, we provide the clean and reliable sanitation services you need.',
+      whyChooseUs: 'We understand the needs of communities like Huffman, offering flexible rental solutions for both recreational events and long-term construction. Our local drivers ensure fast delivery and our commitment to cleanliness is unmatched.',
+      servicesDescription: 'Our services in Huffman cover all the bases, from standard porta potties perfect for work sites to deluxe units for private parties and events at May Park. We also offer handwashing stations for added hygiene.'
+    }
+  },
+  {
+    slug: 'goodrich',
+    name: 'Goodrich',
+    state: 'TX',
+    zipCodes: ['77335'],
+    neighborhoods: ['Rural properties', 'City Center'],
+    landmarks: ['Trinity River', 'Proximity to Lake Livingston'],
+    mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27376.51860010078!2d-94.97022097316049!3d30.613998992015567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8647a11c1d42866b%3A0x6a2c270a6401614e!2sGoodrich%2C%20TX%2077335!5e0!3m2!1sen!2sus!4v1700000000009!5m2!1sen!2sus',
+    content: {
+      intro: 'For the rural community of Goodrich, TX, Arthur Rental Works provides essential and reliable porta potty services. We cater to the needs of farms, ranches, hunting leases, and events near the Trinity River with our durable and well-maintained portable toilets.',
+      whyChooseUs: 'We specialize in serving rural areas like Goodrich, with the logistical expertise to deliver and service units efficiently, no matter the location. We offer friendly, reliable service that the local community can count on.',
+      servicesDescription: 'We provide rugged, long-lasting porta potties ideal for agricultural and long-term use in the Goodrich area. We also offer clean, comfortable units for weekend events, family gatherings, and community functions.'
+    }
+  },
+  {
+    slug: 'onalaska',
+    name: 'Onalaska',
+    state: 'TX',
+    zipCodes: ['77360'],
+    neighborhoods: ['Canyon Park', 'Paradise Acres', 'Impala Woods', 'Lakeside Village'],
+    landmarks: ['Lake Livingston', 'Trinity River', 'Onalaska City Park'],
+    mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27321.48834371711!2d-95.14589207348984!3d30.82281868516104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8647b5903b415a77%3A0x534a6579f1807353!2sOnalaska%2C%20TX%2077360!5e0!3m2!1sen!2sus!4v1700000000010!5m2!1sen!2sus',
+    content: {
+      intro: 'Arthur Rental Works is the trusted provider of porta potty rentals for the vibrant lakeside city of Onalaska, TX. We service fishing tournaments, community events at Onalaska City Park, and residential projects throughout the Lake Livingston area with our clean and dependable portable restrooms.',
+      whyChooseUs: 'We are experts in sanitation for recreational and tourism-focused areas like Onalaska. We ensure our units are always clean and well-stocked to provide a positive experience for visitors and residents enjoying Lake Livingston. Our prompt service is unmatched.',
+      servicesDescription: 'Our services in Onalaska are perfect for any lakeside activity. We provide standard and deluxe porta potties, ADA-compliant units for public access, and handwashing stations, ensuring every event is well-equipped and hygienic.'
+    }
+  }
 ];

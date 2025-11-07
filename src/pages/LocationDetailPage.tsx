@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import SEO from '../components/SEO';
@@ -81,6 +80,11 @@ const LocationDetailPage: React.FC = () => {
                 <div className="container mx-auto px-4 text-center">
                     <h1 className="text-4xl md:text-5xl font-bold">Porta Potty Rental in {location.name}, {location.state}</h1>
                     <p className="text-lg md:text-xl mt-4 max-w-3xl mx-auto">Your Local Source for Fast, Clean Portable Toilets</p>
+                    <div className="mt-8">
+                        <a href={BUSINESS_INFO.phoneHref} className="inline-block bg-yellow-500 text-blue-900 font-bold py-4 px-10 rounded-lg text-xl hover:bg-yellow-600 transition-transform transform hover:scale-105">
+                            Call For A Free Quote
+                        </a>
+                    </div>
                 </div>
             </div>
 
